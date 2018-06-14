@@ -117,16 +117,7 @@ class App extends Component {
     })
 
   }
-
-  handleGetRentals() {
-      // add code to get all rentals here
-      console.log('handleGetRentals fired')
-  }
-
-  handleGetRentalById(id) {
-      // add code to get a single rental here
-      console.log('handleGetRentalById fired')
-  }
+  
 
   isRented(id, available) {
       if (available === true && this.state.renters[id] === '0x0000000000000000000000000000000000000000') {
